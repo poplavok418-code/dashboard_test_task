@@ -1,6 +1,7 @@
 .env
 .env.*
 !.env.example
+Initial_task.md
 
 node_modules/
 .next/
