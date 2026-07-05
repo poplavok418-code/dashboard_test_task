@@ -1,0 +1,4 @@
+interface:
+  display_name: "Version Feature Loop"
+  short_description: "Spec, tests, implementation, and report loop"
+  default_prompt: "Use $version-feature-loop to build the next named feature version from my description."

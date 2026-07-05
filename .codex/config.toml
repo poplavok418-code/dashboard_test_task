@@ -1,0 +1,11 @@
+[features]
+codex_hooks = true
+
+[[hooks.PreToolUse]]
+matcher = "^Bash$"
+
+[[hooks.PreToolUse.hooks]]
+type = "command"
+command = 'powershell -NoProfile -ExecutionPolicy Bypass -File .codex\hooks\protect-env.ps1'
+timeout = 5
+statusMessage = "Protecting .env"

@@ -1,0 +1,2 @@
+Placeholder DOC fixture.
+The basic loader should accept this file by extension and size, classify it as text, and avoid legacy Word extraction in this step.

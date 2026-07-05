@@ -1,0 +1,2 @@
+Placeholder DOCX fixture.
+The basic loader should accept this file by extension and size, classify it as text, and avoid deep parsing in this step.

@@ -1,0 +1,2 @@
+Placeholder XLSX fixture.
+The basic loader should accept this file by extension and size, classify it as sheets, and avoid deep parsing in this step.
